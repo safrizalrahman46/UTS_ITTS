@@ -4,8 +4,8 @@ class Parkir:
         self.data_login = {'cakboyo': 'pangerantampan', 'konoha': 'selaludihati', 'cakjukir': 'ahlinyaahli'}
         self.max_login_attempts = 3
         self.parkiran = {'lantai1': {'sepeda_motor': [], 'mobil': []},
-                         'lantai2': {'sepeda_motor': [], 'mobil': []},
-                         'lantai3': {'sepeda_motor': [], 'mobil': [], 'bus': []}}
+                        'lantai2': {'sepeda_motor': [], 'mobil': []},
+                        'lantai3': {'sepeda_motor': [], 'mobil': [], 'bus': []}}
         self.tarif = {'sepeda_motor': 2000, 'mobil': 5000, 'bus': 10000}
         self.total_pendapatan = 0
 
